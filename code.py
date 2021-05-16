@@ -1,6 +1,7 @@
 def hello():
     """Возвращает hello, world."""
-    ...
+    return 'hello, world'
 
 
-print(hello())
+if __name__ == 'main':
+    print(hello())
